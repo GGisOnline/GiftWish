@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="be.uclouvain.lsinf1225.groupel32.wishlist">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Interface.show_item"></activity>
+        <activity android:name=".Interface.friend_item_creation" />
+        <activity android:name=".Interface.WishesFriend" />
+        <activity android:name=".Backend.MyAdapterWishesFriend" />
+        <activity android:name=".Interface.alterable_wishlist" />
+        <activity android:name=".Interface.friend_wishlists" />
+        <activity android:name=".Interface.Friend_Profile" />
+        <activity android:name=".Interface.Preferences" />
+        <activity android:name=".Interface.Friend_Profile" />
+        <activity android:name=".Interface.Demands" />
+        <activity android:name=".Interface.friends_intermediate" />
+        <activity
+            android:name=".Interface.item_creation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.wishes_intermediate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.Create_wislist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Backend.wishlist_intermediate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.Wishes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.DeleteAccount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Backend.MyAdapter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.Register_Next"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.EditProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.Produits"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.WishLists"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.Friends"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Interface.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

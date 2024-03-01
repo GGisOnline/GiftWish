@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">GiftWish</string>
+    <string name="pseudo_connexion">Pseudo</string>
+    <string name="mdp_connexion">Password</string>
+    <string name="Pseudo_register">Pseudo</string>
+    <string name="Password_register">Password</string>
+    <string name="forgotPassword"><u>Forgot your password?</u></string>
+    <string name="pseudo"><u>Votre pseudo :</u></string>
+    <string name="MDP"><u>Mot de Passe :</u></string>
+    <string name="Confirmation"><u>Confirmation du Mot de Passe :</u></string>
+    <string name="name"><u>Votre nom :</u></string>
+    <string name="firstname"><u>Votre prénom :</u></string>
+    <string name="age"><u>Votre âge :</u></string>
+    <string name="BETA">BETA VERSION</string>
+    <string name="warning_message">Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible et entrainera la suppression immédiate de toutes vos données.</string>
+    <string name="ajout_wishlist"> Créer wishlist</string>
+    <string name="liste_wishlist"> Ma liste de wishlist</string>
+    <string name="remerciements">Merci à toute l\'équipe LINFO1225 L3.2 pour ce dur travail et toute cette implication sérieuse dans ce projet ! </string>
+
+    <string-array name="taille_vêtement">
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+        <item>XXXL</item>
+    </string-array>
+
+    <string-array name="couleur">
+        <item>Blanc</item>
+        <item>Bleu</item>
+        <item>Brun</item>
+        <item>Gris</item>
+        <item>Jaune</item>
+        <item>Noir</item>
+        <item>Rose</item>
+        <item>Rouge</item>
+        <item>Vert</item>
+        <item>Violet</item>
+    </string-array>
+</resources>
